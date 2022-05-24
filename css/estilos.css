@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Limonea;
+    src: url(Limonea.otf.otf);
+}
+:root{
+    --cor-fundo:#f1dbda;
+    --cor-títilo: #bca297;
+    --cor-paragrafo: #bca297;
+    --cor-link: #efaaa3;
+    --cor-borda: #efaaa3;
+    --fonte-principal: Limonea;
+}
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    width: 500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div{
+    text-align: center;
+}
+
+h1 {
+    color: var(--cor-títilo);
+    margin-top: 25px;
+    margin-bottom: 125px;
+    margin-left: 25px;
+}
+body p{
+    color:var(--cor-paragrafo);
+    text-align: justify
+}
+ul li a{
+    color: var(--cor-link);
+}
+img{
+    width: 150px;
+    border-radius: 50%;
+    border-width: 6px;
+    border-color: var(--cor-borda);  
+    border-style: solod;  
+}
